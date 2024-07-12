@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.flex{
+    display: flex;
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:50%;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+}
+.left img{
+    width: 53px;
+    height: 53px;
+    
+}
+.left p{
+    display: flex;
+    cursor: pointer;
+    margin: 3px 3px 3px 3px;
+    
+}
+.left p:hover{
+    border:2px solid rgb(148, 138, 138);
+}
+.right{
+    width: 50%;
+    margin:30px;
+    background-color: #f3f3f3;
+
+}
+.right input{
+    align-items: centers;
+    height: 30px;
+    width: 660px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+.right button{
+    height:30px;
+    width: 30px;
+    border-radius:4 px;
+    border: none;
+}
+.right input{
+    color:rgb(148, 138, 138); ;
+}
+.right input :placeholder{
+    text-align: center;
+}
+
+.box1{
+   text-align: center;
+   color: #282c3f;
+   margin: 50px 0px 10px 30px;
+   text-align: center;
+}
+.box1 h1{
+    margin: 120px;
+}
+
+main .box2{
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+main .box2 img{
+    height: 300px;
+    width: 245px;
+    cursor: pointer;
+    
+}
